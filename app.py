@@ -308,3 +308,5 @@ def process_data():
     return bot_reply,200
 
 
+if __name__ == '__main__':
+    app.run(debug=True)
